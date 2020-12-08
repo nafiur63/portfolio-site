@@ -59,8 +59,13 @@ const menuItems = [
   },
   {
     listIcon: <AssignmentInd />,
-    listText: "Resume",
-    listPath: "/resume"
+    listText: "Work Experience",
+    listPath: "/workexperience"
+  },
+  {
+    listIcon: <AssignmentInd />,
+    listText: "Education",
+    listPath: "/education"
   },
   {
     listIcon: <Apps />,
@@ -111,7 +116,7 @@ const Navbar = () => {
             <Menu style={{color:"white"}} fontSize="large"/>              
             </IconButton>
             <Typography variant="h4" style={{ color: "tan" }}>
-              Portfolio
+              Profile
             </Typography>
             <MobilRightMenuSlider anchor="right" open={state.right} onClose={toggleSlider("right", false)} >
               {sideList("right")}

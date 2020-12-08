@@ -48,6 +48,20 @@ export default makeStyles(theme => ({
             borderColor:"tomato tomato transparent transparent",
             borderWidth:"0.625rem",
             transform:"rotate(45deg)"
+        },
+        [theme.breakpoints.up("md")]: {
+            width:"44%",
+            margin:"1rem",
+            "&:nth-of-type(2n)": {
+                float: "right",
+                margin: "1rem",
+                borderColor: "tan"
+            },
+            "&:nth-of-type(2n):before": {
+                right: "auto",
+                left:"-0.625rem",
+                borderColor:"transparent transparent tomato tomato"
+            }
         }
     },
     timeLineYear: {
@@ -57,15 +71,17 @@ export default makeStyles(theme => ({
         fontSize: "1.8rem",
         background:"tomato",
         color:"white",
-        lineHeight:1,
+        lineHeight: 1, 
         padding:" 0.5rem 0 1rem",
         "&:before":{
            display:"none" 
         },
+
+
         [theme.breakpoints.up("md")]: {
             textAlign:"center",
             margin:"0 auto",
-            "&:nth-of-typeof(2n)":{
+            "&:nth-of-type(2n)":{
                 float:"none",
                 margin:"0 auto"
             },
@@ -73,5 +89,15 @@ export default makeStyles(theme => ({
                 display:"none"
             }
         }
+    },
+    heading: {
+        color:"tomato",
+        padding: "3rem 0",
+        textTransform: "uppercase" 
+    },
+    subHeading: {
+        color: "white",
+        padding: "0",
+        textTransform: "uppercase"
     }
 }))
