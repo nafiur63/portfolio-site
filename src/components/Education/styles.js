@@ -51,10 +51,10 @@ export default makeStyles(theme => ({
         },
         [theme.breakpoints.up("md")]: {
             width:"44%",
-            margin:"2rem",
+            margin:"0rem 0rem 4rem 0rem",
             "&:nth-of-type(2n)": {
                 float: "right",
-                margin: "1rem",
+                margin: "0rem",
                 borderColor: "tan"
             },
             "&:nth-of-type(2n):before": {
@@ -72,7 +72,7 @@ export default makeStyles(theme => ({
         background:"tomato",
         color:"white",
         lineHeight: 1, 
-        padding:" 0.5rem 0 1rem",
+        padding:" 1rem 0 1rem",
         "&:before":{
            display:"none" 
         },

@@ -3,6 +3,7 @@ import avatar from "../../images/icon.jpg";
 import MobilRightMenuSlider from "@material-ui/core/Drawer";
 import { makeStyles } from "@material-ui/core/styles";
 import { Sling as Hamburger } from 'hamburger-react'
+import BookIcon from '@material-ui/icons/Book';
 import {Link} from "react-router-dom"
 import {
   AppBar,
@@ -63,7 +64,7 @@ const menuItems = [
     listPath: "/workexperience"
   },
   {
-    listIcon: <AssignmentInd />,
+    listIcon: <BookIcon />,
     listText: "Education",
     listPath: "/education"
   },
