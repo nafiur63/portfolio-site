@@ -54,7 +54,7 @@ export default makeStyles(theme => ({
             margin:"0rem 0rem 4rem 0rem",
             "&:nth-of-type(2n)": {
                 float: "right",
-                margin: "0rem",
+                margin: "1rem 1rem 4rem 2rem",
                 borderColor: "tan"
             },
             "&:nth-of-type(2n):before": {

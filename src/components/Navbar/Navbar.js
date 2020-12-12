@@ -38,7 +38,7 @@ const useStyles = makeStyles((theme) => ({
   },
   menuSliderContainer: {
     width: 310,
-    background: "#511",
+    background: "#00a3cc",
     height: "100%",
   },
   avatar: {
@@ -48,7 +48,7 @@ const useStyles = makeStyles((theme) => ({
     height: theme.spacing(13),
   },
   listItems: {
-    color: "tan",
+    color: "white",
   },
 }));
 
@@ -75,6 +75,7 @@ const menuItems = [
   {
     listIcon: <ContactMail />,
     listText: "Contacts",
+    listPath: "/contacts"
   },
 ];
 
@@ -97,11 +98,11 @@ const Navbar = () => {
       <Divider />
       <List>
         {menuItems.map((lsItem, key) => (
-          <ListItem component={Link} to={lsItem.listPath} className={classes.listItems} button key={key}>
+          <ListItem  component={Link} to={lsItem.listPath} className={classes.listItems} button key={key}>
             <ListItemIcon className={classes.listItems}>
               {lsItem.listIcon}
             </ListItemIcon>
-            <ListItemText primary={lsItem.listText} />
+            <ListItemText  primary={lsItem.listText} />
           </ListItem>
         ))}
       </List>
@@ -116,7 +117,7 @@ const Navbar = () => {
             <IconButton onClick={toggleSlider("right", true)}>
             <Menu style={{color:"white"}} fontSize="large"/>              
             </IconButton>
-            <Typography variant="h4" style={{ color: "tan" }}>
+            <Typography variant="h4" style={{ color: "#80bfff" }}>
               Profile
             </Typography>
             <MobilRightMenuSlider anchor="right" open={state.right} onClose={toggleSlider("right", false)} >

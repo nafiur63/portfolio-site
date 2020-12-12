@@ -8,10 +8,10 @@ export default makeStyles(theme => ({
         margin: theme.spacing(1)
     },
     title:{
-        color:"tomato"
+        color:"#99ccff"
     },
     subtitle: {
-        color:"tan",
+        color:"#4dd2ff",
         marginBottom:"3rem"
     },
     typedContainer: {
