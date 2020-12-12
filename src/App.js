@@ -13,6 +13,15 @@ function App() {
     <Route path="/workexperience" component ={WorkExperience} />
     <Route path="/education" component={Educaton} />
     <Route path="/contacts" component={Contacts} />
+    <Route path='/github' component={() => { 
+     window.location.href = 'https://github.com/nafiur63'; 
+     return null;
+    }}/>
+    <Route path='/linkedin' component={() => { 
+     window.location.href = 'https://www.linkedin.com/in/md-nafiur-reza/'; 
+     return null;
+    }}/>
+    
     </>
   );
 }

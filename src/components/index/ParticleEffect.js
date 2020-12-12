@@ -21,9 +21,9 @@ const ParticleEffect = () => {
             params={{
                 particles:{
                     number:{
-                        value:250,density:{
+                        value:150,density:{
                             enable:true,
-                            value_area:900
+                            value_area:1300
                         }
                     },
                     shape: {
@@ -34,7 +34,7 @@ const ParticleEffect = () => {
                         }
                     },
                     size: {
-                        value:8,
+                        value:5,
                         random:true,
                         anim: {
                             enable:true,

@@ -13,10 +13,10 @@ const Home = () => {
     
     return (
         <>  
-            
+            <ParticleEffect />
             <Navbar/>
             <Header />
-            <ParticleEffect />
+            
             
         </>
     )
