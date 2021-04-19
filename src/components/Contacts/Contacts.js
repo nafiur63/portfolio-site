@@ -7,6 +7,7 @@ import Navbar from "../Navbar/Navbar"
 const Contacts = () => {
     return (
         <>
+        <Navbar/>
         <Box component= "div">
             <Grid></Grid>
         </Box>

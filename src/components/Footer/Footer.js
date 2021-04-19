@@ -30,7 +30,7 @@ const Footer = () => {
             <BottomNavigationAction
             className={classes.root}
             component={Link}
-            to={"githubpage"}
+            to={"github"}
                 style={{padding: 0}}
                 icon={<GitHubIcon/>}
             />

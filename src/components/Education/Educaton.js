@@ -30,7 +30,7 @@ const Educaton = () => {
             <Typography
               variant="body1"
               align="center"
-              style={{ color: "tomato" }}
+              style={{ color: "#4ac6ff" }}
             >Copmuter Science & Engineering
             <br></br>CGPA - 3.30/4.0 
             </Typography>
@@ -62,7 +62,7 @@ const Educaton = () => {
             <Typography
               variant="body1"
               align="center"
-              style={{ color: "tomato" }}
+              style={{ color: "#4ac6ff" }}
             >Science
             <br></br>GPA 5.0/5.0
             </Typography>
@@ -93,7 +93,7 @@ const Educaton = () => {
             <Typography
               variant="body1"
               align="center"
-              style={{ color: "tomato" }}
+              style={{ color: "#4ac6ff" }}
             >Science   
             <br></br>GPA 5.0/5.0        
             </Typography>

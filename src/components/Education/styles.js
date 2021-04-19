@@ -12,7 +12,7 @@ export default makeStyles(theme => ({
             content: "''",
             position: "absolute",
             height:"100%",
-            border: "1px solid tan",
+            border: "1px solid #82e4ff",
             right:"40px",
             top:0
         },
@@ -31,7 +31,7 @@ export default makeStyles(theme => ({
     },
     timeLineItem: {
         padding:"1rem",
-        borderBottom:"2px solid tan",
+        borderBottom:"2px solid #82e4ff",
         position:"relative",
         margin:"1rem 3rem 6rem 1rem",
         clear:"both",
@@ -45,7 +45,7 @@ export default makeStyles(theme => ({
             right:"-0.625rem",
             top:"calc(50% - 5px)",
             borderStyle:"solid",
-            borderColor:"tomato tomato transparent transparent",
+            borderColor:"#82d8ff #82d8ff transparent transparent",
             borderWidth:"0.625rem",
             transform:"rotate(45deg)"
         },
@@ -55,12 +55,12 @@ export default makeStyles(theme => ({
             "&:nth-of-type(2n)": {
                 float: "right",
                 margin: "1rem 1rem 4rem 2rem",
-                borderColor: "tan"
+                borderColor: "#82e4ff"
             },
             "&:nth-of-type(2n):before": {
                 right: "auto",
                 left:"-0.625rem",
-                borderColor:"transparent transparent tomato tomato"
+                borderColor:"transparent transparent #82d8ff #82d8ff"
             }
         }
     },
@@ -69,7 +69,7 @@ export default makeStyles(theme => ({
         maxWidth: "9.375rem",
         margin:"0 3rem 0 auto",
         fontSize: "1.8rem",
-        background:"tomato",
+        background:"linear-gradient(to bottom right, #090979, #00d4ff)",
         color:"white",
         lineHeight: 1, 
         padding:" 1rem 0 1rem",
@@ -90,9 +90,9 @@ export default makeStyles(theme => ({
         }
     },
     heading: {
-        color:"tomato",
+        color:"#82d8ff",
         padding: "3rem 0",
-        textTransform: "uppercase" 
+        textTransform: "uppercase",
     },
     subHeading: {
         color: "white",

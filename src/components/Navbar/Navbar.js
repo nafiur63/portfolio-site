@@ -72,6 +72,7 @@ const menuItems = [
   {
     listIcon: <Apps />,
     listText: "Portfolio",
+    listPath: "/portfolio"
   },
   {
     listIcon: <ContactMail />,
@@ -114,13 +115,13 @@ const Navbar = () => {
     <>
       <Box component="nav">
         <AppBar position="static" style={{ background: "transparent", boxShadow: "none" }}>
-          <Toolbar>
-            <IconButton onClick={toggleSlider("right", true)}>
-            <Menu style={{color:"white"}} fontSize="large"/>              
-            </IconButton>
+          <Toolbar style={{ position: "absolute", right: "0" }}>           
             <Typography variant="h4" style={{ color: "#80bfff" }}>
               Profile
             </Typography>
+            <IconButton onClick={toggleSlider("right", true)}>
+            <Menu style={{color:"white"}} fontSize="large"/>              
+            </IconButton>
             <MobilRightMenuSlider anchor="right" open={state.right} onClose={toggleSlider("right", false)} >
               {sideList("right")}
               <Footer/>

@@ -30,7 +30,7 @@ const WorkExperience = () => {
             <Typography
               variant="body1"
               align="center"
-              style={{ color: "tomato" }}
+              style={{ color: "#4ac6ff" }}
             >
               ClippingUSA
             </Typography>
@@ -61,7 +61,7 @@ const WorkExperience = () => {
             <Typography
               variant="body1"
               align="center"
-              style={{ color: "tomato" }}
+              style={{ color: "#4ac6ff" }}
             >
               Freelancer
             </Typography>
