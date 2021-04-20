@@ -23,6 +23,10 @@ function App() {
      window.location.href = 'https://www.linkedin.com/in/md-nafiur-reza/'; 
      return null;
     }}/>
+    <Route path='/git-project1' component={() => { 
+     window.location.href = 'https://github.com/nafiur63/mern-e-shop'; 
+     return null;
+    }}/>
     
     </>
   );
