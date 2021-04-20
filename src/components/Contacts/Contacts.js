@@ -8,7 +8,9 @@ const Contacts = () => {
     return (
         <>
         <Navbar/>
+        <h1 style={{color:"white"}}>Check Navbar Footer</h1>
         <Box component= "div">
+
             <Grid></Grid>
         </Box>
         </>

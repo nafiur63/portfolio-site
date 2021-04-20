@@ -9,24 +9,28 @@ import {
   Button,
   Typography,
   CardContent,
+  Row,
 } from "@material-ui/core";
 import { makeStyles } from "@material-ui/styles";
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom";
 
 const useStyless = makeStyles({
   cardContainer: {
     maxWidth: 395,
     margin: "6rem auto",
-    height: "auto",
+    // height: "30vw",
   },
+//   cardBox: {
+//     background:"white",
+//   }
 });
 
-const ProjectCard = ({ images, description, name,to }) => {
+const ProjectCard = ({ images, description, name, to }) => {
   const classes = useStyless();
   return (
     <>
       <Card className={classes.cardContainer} elevation={55}>
-        <CardActionArea>
+        <CardActionArea className={classes.cardBox}>
           <CardMedia
             component="img"
             alt="project 1"
@@ -39,15 +43,23 @@ const ProjectCard = ({ images, description, name,to }) => {
             </Typography>
             <Typography>{description} </Typography>
           </CardContent>
-          </CardActionArea>
-          <CardActions>
-            <Button size="small" color="primary" component={Link} to={to}>
+        </CardActionArea>
+        <CardActions>
+          <Grid container justify="space-evenly">
+            <Button
+              size="small"
+              variant="contained"
+              color="primary"
+              component={Link}
+              to={to}
+            >
               GitHub Repo
             </Button>
-            <Button size="small" color="primary">
+            <Button size="small" variant="contained" color="primary">
               Live Demo
             </Button>
-          </CardActions>
+          </Grid>
+        </CardActions>
       </Card>
     </>
   );

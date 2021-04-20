@@ -23,8 +23,20 @@ function App() {
      window.location.href = 'https://www.linkedin.com/in/md-nafiur-reza/'; 
      return null;
     }}/>
-    <Route path='/git-project1' component={() => { 
+    <Route path='/git-project-eshop' component={() => { 
      window.location.href = 'https://github.com/nafiur63/mern-e-shop'; 
+     return null;
+    }}/>
+    <Route path='/git-project-chat' component={() => { 
+     window.location.href = 'https://github.com/nafiur63/node-react-socket-chat-app'; 
+     return null;
+    }}/>
+    <Route path='/git-project-journal' component={() => { 
+     window.location.href = 'https://github.com/nafiur63/journal-site'; 
+     return null;
+    }}/>
+    <Route path='/git-project-course' component={() => { 
+     window.location.href = 'https://github.com/snake-lab/advisingapp'; 
      return null;
     }}/>
     
