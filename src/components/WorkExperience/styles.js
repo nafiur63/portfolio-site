@@ -1,9 +1,9 @@
 import {makeStyles} from "@material-ui/core/styles"
 
 export default makeStyles(theme => ({
-    mainContainer: {
-        background: "#233"
-    },
+    // mainContainer: {
+    //     background: "transp"
+    // },
     timeLine: {
         position:"relative",
         padding:"1rem",
@@ -11,6 +11,7 @@ export default makeStyles(theme => ({
         "&:before": {
             content: "''",
             position: "absolute",
+            fontSize:"20px",
             height:"100%",
             border: "1px solid #82e4ff",
             right:"40px",
@@ -59,7 +60,7 @@ export default makeStyles(theme => ({
             },
             "&:nth-of-type(2n):before": {
                 right: "auto",
-                left:"-0.625rem",
+                left:"-1.625rem",
                 borderColor:"transparent transparent #82d8ff #82d8ff"
             }
         }
@@ -90,9 +91,11 @@ export default makeStyles(theme => ({
         }
     },
     heading: {
-        color:"#00d4ff",
+        color:"#99c9ff",
         padding: "3rem 0",
-        textTransform: "uppercase" 
+        textTransform: "uppercase",
+        fontWeight:"bolder",
+        fontFamily:"Lucida Console"
     },
     subHeading: {
         color: "white",

@@ -37,7 +37,7 @@ const WorkExperience = () => {
             <Typography
               variant="subtitle1"
               align="center"
-              style={{ color: "tan" }}
+              style={{ color: "#a8ebff",fontSize:"16px",fontWeight:"bolder",fontFamily:"Lucida Console" }}
             >
               Writing English articles on various topics for the official
               website and other purposes.
@@ -61,14 +61,14 @@ const WorkExperience = () => {
             <Typography
               variant="body1"
               align="center"
-              style={{ color: "#4ac6ff" }}
+              style={{ color: "#4ac6ff",fontSize:"20px" }}
             >
               Freelancer
             </Typography>
             <Typography
               variant="subtitle1"
               align="center"
-              style={{ color: "tan" }}
+              style={{ color: "#a8ebff", fontSize:"16px", fontWeight:"bolder",fontFamily:"Lucida Console"}}
             >
               Building responsive webpages from Photoshop Data file using
               HTML5,CSS,Bootstrap,JS.

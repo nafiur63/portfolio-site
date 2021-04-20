@@ -1,9 +1,9 @@
 import {makeStyles} from "@material-ui/core/styles"
 
 export default makeStyles(theme => ({
-    mainContainer: {
-        background: "#233"
-    },
+    // mainContainer: {
+    //     background: "#233"
+    // },
     timeLine: {
         position:"relative",
         padding:"1rem",
@@ -90,9 +90,11 @@ export default makeStyles(theme => ({
         }
     },
     heading: {
-        color:"#82d8ff",
+        color:"#99c9ff",
         padding: "3rem 0",
         textTransform: "uppercase",
+        fontWeight:"bolder",
+        fontFamily:"Lucida Console"
     },
     subHeading: {
         color: "white",
