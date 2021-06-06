@@ -10,6 +10,7 @@ import React from "react";
 import Navbar from "../Navbar/Navbar";
 import useStyles from "./Styles";
 import nodejs from "../../images/nodejs.svg";
+import SkillSection from "./SkillSection";
 
 const Skills = () => {
   const webskillsets = [
@@ -49,7 +50,7 @@ const Skills = () => {
 
   const mlskillsets = [
         {
-          Webname: "NodeJS",
+          Webname: "Python",
           level: "Expert",
           images: nodejs,
         },
@@ -82,32 +83,32 @@ const Skills = () => {
 
       const utilityskillsets = [
         {
-          Webname: "NodeJS",
+          Webname: "GitHub",
           level: "Expert",
           images: nodejs,
         },
         {
-          Webname: "NodeJS",
+          Webname: "MS Office Suite",
           level: "Expert",
           images: nodejs,
         },
         {
-          Webname: "NodeJS",
+          Webname: "Netlify",
           level: "Expert",
           images: nodejs,
         },
         {
-          Webname: "NodeJS",
+          Webname: "Heroku",
           level: "Expert",
           images: nodejs,
         },
         {
-          Webname: "NodeJS",
+          Webname: "Oracle Apex",
           level: "Expert",
           images: nodejs,
         },
         {
-          Webname: "NodeJS",
+          Webname: "AWS",
           level: "Expert",
           images: nodejs,
         },
@@ -115,32 +116,32 @@ const Skills = () => {
 
       const ipskillsets = [
         {
-          Webname: "NodeJS",
+          Webname: "Leadership",
           level: "Expert",
           images: nodejs,
         },
         {
-          Webname: "NodeJS",
+          Webname: "Critical Thinking",
           level: "Expert",
           images: nodejs,
         },
         {
-          Webname: "NodeJS",
+          Webname: "Communication",
           level: "Expert",
           images: nodejs,
         },
         {
-          Webname: "NodeJS",
+          Webname: "Team Management",
           level: "Expert",
           images: nodejs,
         },
         {
-          Webname: "NodeJS",
+          Webname: "Presentation",
           level: "Expert",
           images: nodejs,
         },
         {
-          Webname: "NodeJS",
+          Webname: "Public Speaking",
           level: "Expert",
           images: nodejs,
         },
@@ -191,18 +192,19 @@ const Skills = () => {
             <Box textAlign="center">
                     <Paper elevation={4} style={{backgroundColor:"inherit"}}>
               <Grid container spacing={5}>
-                <Grid item xs={12}>
+                <Grid item xs={12} style={{color:'white'}}>
                   Machine Learning Skills
                 </Grid>
                 {webskillsets.map((webskillset, key) => (
-                  <Grid item xs={4} md={2}>
-                    <Card rounded className={styles.center}>
-                      <img src={webskillset.images} alt="food icon" />
-                      <Box>
-                        {webskillset.Webname} {webskillset.level}
-                      </Box>
-                    </Card>
-                  </Grid>
+                //   <Grid item xs={4} md={2}>
+                //     <Card rounded className={styles.center}>
+                //       <img src={webskillset.images} alt="food icon" />
+                //       <Box>
+                //         {webskillset.Webname} {webskillset.level}
+                //       </Box>
+                //     </Card>
+                //   </Grid>
+                <SkillSection webname={webskillset.Webname} level={webskillset.level} images={webskillset.images}/>
                 ))}
               </Grid>
               </Paper>
@@ -215,12 +217,12 @@ const Skills = () => {
                 <Grid item xs={12}>
                   Utility Skills
                 </Grid>
-                {webskillsets.map((webskillset, key) => (
+                {ipskillsets.map((ipskillset, key) => (
                   <Grid item xs={4} md={2}>
                     <Card rounded className={styles.center}>
-                      <img src={webskillset.images} alt="food icon" />
+                      <img src={ipskillset.images} alt="food icon" />
                       <Box>
-                        {webskillset.Webname} {webskillset.level}
+                        {ipskillset.Webname} {ipskillset.level}
                       </Box>
                     </Card>
                   </Grid>
@@ -233,9 +235,9 @@ const Skills = () => {
                     <Paper elevation={4} style={{backgroundColor:"inherit"}}>
               <Grid container spacing={5}>
                 <Grid item xs={12}>
-                  Interpersonal Skills
+                  Utility Skills
                 </Grid>
-                {webskillsets.map((webskillset, key) => (
+                {utilityskillsets.map((webskillset, key) => (
                   <Grid item xs={4} md={2}>
                     <Card rounded className={styles.center}>
                       <img src={webskillset.images} alt="food icon" />
