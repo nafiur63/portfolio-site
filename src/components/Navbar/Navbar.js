@@ -70,6 +70,11 @@ const menuItems = [
     listPath: "/education"
   },
   {
+    listIcon: <ContactMail />,
+    listText: "Skills",
+    listPath: "/skills"
+  },
+  {
     listIcon: <Apps />,
     listText: "Portfolio",
     listPath: "/portfolio"
