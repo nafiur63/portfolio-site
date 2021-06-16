@@ -25,7 +25,7 @@ export default makeStyles(theme => ({
         padding: "5rem 0",
         textTransform: "uppercase",
         fontWeight:"bolder",
-        marginTop:"1rem"
+        marginTop:"4rem"
     },
     maincontainer:{
         height:'100%',

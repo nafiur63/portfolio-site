@@ -61,6 +61,10 @@ const Skills = () => {
       Webname: "Express",
       level: "Expert",
       images: nodejs,
+    },{
+      Webname: "Redux",
+      level: "Expert",
+      images: nodejs,
     },
     {
       Webname: "Bootstrap",
@@ -194,7 +198,7 @@ const Skills = () => {
           mx="40rem"
           style={{ padding: "3rem 0", color: "#99c9ff",fontFamily:"serif" }} className={styles.heading}
         >
-          My Skills
+          Skills
         </Typography>
         <Box display="flex" justifyContent="center" alignItems="center">
           <Box

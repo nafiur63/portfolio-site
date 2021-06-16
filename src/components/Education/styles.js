@@ -94,7 +94,8 @@ export default makeStyles(theme => ({
         padding: "3rem 0",
         textTransform: "uppercase",
         fontWeight:"bolder",
-        fontFamily:"serif"
+        fontFamily:"serif",
+        marginTop: "4rem",
     },
     subHeading: {
         color: "white",
