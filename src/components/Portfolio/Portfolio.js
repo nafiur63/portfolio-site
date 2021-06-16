@@ -51,7 +51,7 @@ const Portfolio = () => {
       <Box component="div" className={classes.mainContainer}>
         
         <Grow in timeout={1250}>
-        <Grid container justify="center">
+        <Grid container >
           {portfolioProjects.map((portfolioProject,key) => (
             <Grid item xs={12} sm={8} md={6}>
               <ProjectCard

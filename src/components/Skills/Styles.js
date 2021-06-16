@@ -22,10 +22,10 @@ export default makeStyles(theme => ({
     },
     heading: {
         color:"#99c9ff",
-        padding: "3rem 0",
+        padding: "5rem 0",
         textTransform: "uppercase",
         fontWeight:"bolder",
-        fontFamily:"Lucida Console"
+        marginTop:"1rem"
     },
     maincontainer:{
         height:'100%',

@@ -30,14 +30,14 @@ const Educaton = () => {
             <Typography
               variant="body1"
               align="center"
-              style={{ color: "#4ac6ff" }}
+              style={{ color: "#4ac6ff",fontFamily:"serif",fontWeight:"bolder"  }}
             >Copmuter Science & Engineering
             <br></br>CGPA - 3.30/4.0 
             </Typography>
             <Typography
               variant="subtitle1"
               align="center"
-              style={{ color: "tan" }}
+              style={{ color: "tan",fontFamily:"serif",fontWeight:"bolder"  }}
             >
                East West University
                <br></br> Dhaka, Bangladesh
@@ -62,14 +62,14 @@ const Educaton = () => {
             <Typography
               variant="body1"
               align="center"
-              style={{ color: "#4ac6ff" }}
+              style={{ color: "#4ac6ff",fontFamily:"serif",fontWeight:"bolder"  }}
             >Science
             <br></br>GPA 5.0/5.0
             </Typography>
             <Typography
               variant="subtitle1"
               align="center"
-              style={{ color: "tan" }}
+              style={{ color: "tan",fontFamily:"serif",fontWeight:"bolder"  }}
             >
               Milestone College
               <br></br> Dhaka, Bangladesh
@@ -93,14 +93,14 @@ const Educaton = () => {
             <Typography
               variant="body1"
               align="center"
-              style={{ color: "#4ac6ff" }}
+              style={{ color: "#4ac6ff",fontFamily:"serif",fontWeight:"bolder"  }}
             >Science   
             <br></br>GPA 5.0/5.0        
             </Typography>
             <Typography
               variant="subtitle1"
               align="center"
-              style={{ color: "tan" }}
+              style={{ color: "tan",fontFamily:"serif",fontWeight:"bolder" }}
             >
               Milestone College
               <br></br>Dhaka, Bangladesh

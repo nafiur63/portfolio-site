@@ -50,6 +50,7 @@ const useStyles = makeStyles((theme) => ({
   },
   listItems: {
     color: "white",
+    fontFamily:"serif"
   },
 }));
 
@@ -100,7 +101,7 @@ const Navbar = () => {
   const classes = useStyles();
 
   const sideList = (slider) => (
-    <Box className={classes.menuSliderContainer} component="div" onClick={toggleSlider(slider, false)}>
+    <Box className={classes.menuSliderContainer} style={{fontFamily:"serif"}} component="div" onClick={toggleSlider(slider, false)}>
       <Avatar className={classes.avatar} src={avatar} />
       <Divider />
       <List>
@@ -109,7 +110,8 @@ const Navbar = () => {
             <ListItemIcon className={classes.listItems}>
               {lsItem.listIcon}
             </ListItemIcon>
-            <ListItemText  primary={lsItem.listText} />
+            <ListItemText disableTypography
+              style={{fontFamily:"serif", fontSize:"1.3rem"}} primary={lsItem.listText} />
           </ListItem>
         ))}
       </List>
@@ -121,7 +123,7 @@ const Navbar = () => {
       <Box component="nav">
         <AppBar position="static" style={{ background: "transparent", boxShadow: "none" }}>
           <Toolbar style={{ position: "absolute", right: "0" }}>           
-            <Typography variant="h4" style={{ color: "#80bfff" }}>
+            <Typography variant="h4" style={{ color: "#80bfff", fontFamily:"serif" }}>
               Profile
             </Typography>
             <IconButton aria-label="Menu" onClick={toggleSlider("right", true)}>

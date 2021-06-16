@@ -17,13 +17,13 @@ const Contacts = () => {
         <>
         <Navbar/>
         <Container>
-        <h1 style={{color:"#7df6ff",marginTop:"4rem",marginBottom:"5rem",textAlign:"center",fontWeight:"bolder",fontSize:"3rem"}}>You can contact me through these</h1>
+        <h1 style={{color:"#99c9ff",marginTop:"4rem",marginBottom:"5rem",textAlign:"center",fontWeight:"bolder",fontSize:"3rem"}}>You can contact me through these</h1>
         <Grid container>
             <Grid item xs={12} md={3} component={Link}  to={"linkedin"} className={classes.tabs} style={{textDecoration: 'none'}}>
             <Slide in direction="left" timeout={800}>
                 <Paper elevation="10" align="center" className={classes.contactbox}>
-                    <LinkedInIcon align="center" style={{fontSize:"4rem"}} />
-                    <Typography>www.linkedin.com/in/md-nafiur-reza/</Typography>
+                    <LinkedInIcon align="center" style={{fontSize:"4rem", fontFamily:"serif"}} />
+                    <Typography style={{ fontFamily:"serif",fontSize:"1.2rem"}}>www.linkedin.com/in/md-nafiur-reza/</Typography>
                 </Paper>
             </Slide>
             </Grid>
@@ -31,7 +31,7 @@ const Contacts = () => {
             <Slide in direction="left"  timeout={1400}>
                 <Paper elevation="10" align="center" className={classes.contactbox}>
                     <MailIcon style={{fontSize:"4rem"}}/>
-                    <Typography>nafiur63@gmail.com</Typography>
+                    <Typography style={{ fontFamily:"serif",fontSize:"1.3rem"}}>nafiur63@gmail.com</Typography>
                 </Paper>
             </Slide>
             </Grid>
@@ -39,7 +39,7 @@ const Contacts = () => {
             <Slide in direction="left" timeout={2000}>
                 <Paper elevation="10" align="center" className={classes.contactbox}>
                     <GitHubIcon style={{fontSize:"4rem"}}/>
-                    <Typography>github.com/nafiur63</Typography>
+                    <Typography style={{ fontFamily:"serif",fontSize:"1.3rem"}}>github.com/nafiur63</Typography>
                 </Paper>
             </Slide>
             </Grid>

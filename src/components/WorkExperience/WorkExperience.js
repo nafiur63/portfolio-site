@@ -30,14 +30,14 @@ const WorkExperience = () => {
             <Typography
               variant="body1"
               align="center"
-              style={{ color: "#4ac6ff" }}
+              style={{ color: "#4ac6ff",fontWeight:"bolder",fontFamily:"serif"  }}
             >
               ClippingUSA
             </Typography>
             <Typography
               variant="subtitle1"
               align="center"
-              style={{ color: "#a8ebff",fontSize:"16px",fontWeight:"bolder",fontFamily:"Lucida Console" }}
+              style={{ color: "#a8ebff",fontSize:"16px",fontWeight:"bolder",fontFamily:"serif" }}
             >
               Writing English articles on various topics for the official
               website and other purposes.
@@ -61,14 +61,14 @@ const WorkExperience = () => {
             <Typography
               variant="body1"
               align="center"
-              style={{ color: "#4ac6ff",fontSize:"20px" }}
+              style={{ color: "#4ac6ff",fontSize:"20px",fontWeight:"bolder",fontFamily:"serif"  }}
             >
               Freelancer
             </Typography>
             <Typography
               variant="subtitle1"
               align="center"
-              style={{ color: "#a8ebff", fontSize:"16px", fontWeight:"bolder",fontFamily:"Lucida Console"}}
+              style={{ color: "#a8ebff", fontSize:"16px", fontWeight:"bolder",fontFamily:"serif"}}
             >
               Building responsive webpages from Photoshop Data file using
               HTML5,CSS,Bootstrap,JS.

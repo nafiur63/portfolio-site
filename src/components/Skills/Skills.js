@@ -191,8 +191,8 @@ const Skills = () => {
         <Typography
           gutterBottom
           variant="h4"
-          px="30rem"
-          style={{ padding: "3rem 0", color: "#99c9ff" }}
+          mx="40rem"
+          style={{ padding: "3rem 0", color: "#99c9ff",fontFamily:"serif" }} className={styles.heading}
         >
           My Skills
         </Typography>

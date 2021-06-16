@@ -94,11 +94,12 @@ export default makeStyles(theme => ({
         padding: "3rem 0",
         textTransform: "uppercase",
         fontWeight:"bolder",
-        fontFamily:"Lucida Console"
+        fontFamily:"serif"
     },
     subHeading: {
         color: "white",
         padding: "0",
-        textTransform: "uppercase"
+        textTransform: "uppercase",
+        fontFamily:"serif"
     }
 }))
