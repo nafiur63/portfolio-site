@@ -33,5 +33,14 @@ export default makeStyles(theme => ({
     skillbox:{
         // width:'50%',
         // height:'50%',
-    }
+    },
+    // skillname: {
+    //     [theme.breakpoints.down('sm')]: {
+          
+
+    //     },
+    //     [theme.breakpoints.up('md')]: {
+    //       backgroundColor: theme.palette.primary.main,
+    //     },
+    //   },
 }))

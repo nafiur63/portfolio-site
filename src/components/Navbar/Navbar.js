@@ -124,7 +124,7 @@ const Navbar = () => {
             <Typography variant="h4" style={{ color: "#80bfff" }}>
               Profile
             </Typography>
-            <IconButton onClick={toggleSlider("right", true)}>
+            <IconButton aria-label="Menu" onClick={toggleSlider("right", true)}>
             <Menu style={{color:"white"}} fontSize="large"/>              
             </IconButton>
             <MobilRightMenuSlider anchor="right" open={state.right} onClose={toggleSlider("right", false)} >
